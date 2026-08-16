@@ -2,6 +2,26 @@
 
 A social platform for music fans — connect your Last.fm account, browse and post in artist/genre communities, and generate visual "album quilts" from your real listening data.
 
+## Screenshots
+
+**Feed — browse communities and threads**
+![Feed](assets/feed.png)
+
+**Tags — artist and genre communities**
+![Tags](assets/tags.png)
+
+**Thread view — discussions and replies**
+![Thread](assets/thread.png)
+
+**Profile — your music identity**
+![Profile](assets/profile_page.png)
+
+**Top artists — real listening stats from Last.fm**
+![Top Artists](assets/top_artists.png)
+
+**Album quilts — auto-generated collages from your top albums or tracks**
+![Quilts](assets/quilts.png)
+
 ## Features
 
 - **Auth** — JWT-based registration and login
@@ -17,10 +37,6 @@ A social platform for music fans — connect your Last.fm account, browse and po
 **Auth:** JWT, bcrypt password hashing
 **External API:** Last.fm
 
-## Screenshots
-
-*(add a few screenshots here once you have them — this section genuinely helps a lot for portfolio purposes)*
-
 ## Getting started
 
 ### Backend
@@ -32,7 +48,7 @@ source venv/Scripts/activate   # Windows (Git Bash) — use venv/bin/activate on
 pip install -r requirements.txt
 
 cp .env.example .env
-# then fill in .env with your own database URL, secret key, and Last.fm API credentials
+# fill in .env with your own database URL, secret key, and Last.fm API credentials
 # get Last.fm API keys at https://www.last.fm/api/account/create
 
 alembic upgrade head
